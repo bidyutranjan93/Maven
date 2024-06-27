@@ -22,7 +22,7 @@ public class BasicTestNGExample {
         driver.get("https://www.flipkart.com/");
         driver.manage().window().maximize();
         System.out.println("Hello Everyone....");
-        
+
     }
 
     @Test
@@ -30,7 +30,6 @@ public class BasicTestNGExample {
 
         driver.get("https://www.amazon.in/");
         driver.manage().window().maximize();
-        System.out.println(" How are you everyone...");
     }
 
     @Test
