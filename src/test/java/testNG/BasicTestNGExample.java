@@ -22,6 +22,7 @@ public class BasicTestNGExample {
         driver.get("https://www.flipkart.com/");
         driver.manage().window().maximize();
         System.out.println("Hello Everyone....");
+        System.out.println("Hello Good Afternoon");
     }
 
     @Test
