@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testNG.retryanalysis.IAnnotationTransformerExample"/>
+    </listeners>
+    <!--<parameter name="browserName" value="chrome"/>
+    <parameter name="selenium" value="Pune"/>
+    <parameter name="Java" value="Mumbai"/>
+    <parameter name="Python" value="Bangalore"/>-->
+    <test verbose="10" preserve-order="true" parallel="methods" thread-count="3" name="E:/Java Class Program/Maven_28_Nov_2023">
+        <classes>
+            <class name="testNG.retryanalysis.DependsOnMethod"/>
+            <!--<class name="testNG.parameters.DataProviderWithExcel"/>
+            <class name="testNG.parameters.NeedOfParameterization"/>
+            <class name="testNG.parameters.WithParameterization"/>-->
+        </classes>
+    </test>
+</suite>
