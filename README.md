@@ -1,2 +1,2 @@
 # Maven
-Practise class
+Practise
